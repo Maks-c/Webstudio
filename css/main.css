@@ -894,7 +894,7 @@ body {
 }
 
 .filter-item {
-  width: 450px;
+  max-width: 450px;
 }
 
 .filter-item:not(:last-child) {
@@ -932,7 +932,7 @@ body {
 .wrapper {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 101%;
   top: 0%;
   left: 0%;
   background: rgba(33, 150, 243, 0.9);
@@ -951,7 +951,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 322px;
+  width: 100%;
+  padding-left: 10px;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
